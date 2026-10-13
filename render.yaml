@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: school-erp-api
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - { key: MONGODB_URI, sync: false }
+      - { key: JWT_SECRET, generateValue: true }
+      - { key: CLIENT_ORIGIN, sync: false }
+      - { key: NODE_ENV, value: production }
