@@ -2,7 +2,7 @@
 
 React + Vite + Tailwind client, Node/Express API, MongoDB (Mongoose). Dark-green admin UI modelled on the reference video.
 
-**Read `PROJECT_STATUS.md` first** — it states exactly what is complete, what is partial, and what was tested.
+**Read `PROJECT_STATUS.md` first** - it states exactly what is complete, what is partial, and what was tested.
 
 ## Quick start (Windows / macOS / Linux)
 1. Extract the ZIP and open the `school-management-system` folder in VS Code.
