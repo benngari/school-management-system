@@ -1,5 +1,6 @@
 # Project status (honest)
 
+
 ## Verified
 - Server logic tests (7): ledger maths, conflict detection, roster generator fairness/caps/understaffing, grading, RBAC map, Kenyan phone format — pass.
 - API integration tests (9) pass against **FerretDB (SQLite)**, not real MongoDB: login/RBAC, student CRUD + import report, fee invoice/payment/reversal/arrears, attendance + results/report card, duty conflicts/override/generate/publish/swap approval, parent data isolation, library availability, transport capacity, persistence after reconnect, dashboard.
