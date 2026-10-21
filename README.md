@@ -1,4 +1,4 @@
-# School Management System (School ERP) — Kenya
+# School Management System (School ERP) - Kenya
 
 React + Vite + Tailwind client, Node/Express API, MongoDB (Mongoose). Dark-green admin UI modelled on the reference video.
 
